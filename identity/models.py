@@ -11,7 +11,7 @@ class Contact(models.Model):
        (SECONDARY, "secondary")
    ]
    link_precedence = models.CharField(
-       max_length=2,
+       max_length=3,
        choices=LINK_PRECEDENCE_CHOICES,
        default=PRIMARY
    )
