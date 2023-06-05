@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-)iy6ck$9=k!w%o77crjgyx7^q3%14jk9umrv(#hvuz9gp9-m@i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh']
 
 
 # Application definition
@@ -68,8 +68,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bitespeed',
         'USER': 'postgres',
-        'PASSWORD': '12345678',
-        'HOST': 'database.cnflqu3ferl6.us-east-1.rds.amazonaws.com',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
