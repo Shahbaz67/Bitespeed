@@ -6,7 +6,7 @@
       },
       {
         "src": "build_files.sh",
-        "use": "@vercel/statis-build"
+        "use": "@vercel/static-build"
       }
     ],
     "routes": [
