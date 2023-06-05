@@ -1,0 +1,18 @@
+{
+    "builds": [
+      {
+        "src": "bitespeed/wsgi.py",
+        "use": "@vercel/python"
+      },
+      {
+        "src": "build_files.sh",
+        "use": "@vercel/statis-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "bitespeed/wsgi.py"
+      }
+    ]
+}
