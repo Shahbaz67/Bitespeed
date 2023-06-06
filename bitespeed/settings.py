@@ -68,8 +68,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bitespeed',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
+        'PASSWORD': '12345678',
+        'HOST': 'database.cnflqu3ferl6.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
