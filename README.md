@@ -6,6 +6,8 @@ API service hosted on AWS EC2: http://50.17.158.118:8000/identify/
 
 Go to the above url to test the functionality of the "/identify" endpoint.
 
+My Resume link: https://bit.ly/3INyy4X 
+
 # Stack Used
 Database: PostgreSQL on AWS RDS instance
 Backend Framework: Python Django Rest Framework
