@@ -14,11 +14,13 @@ Backend Framework: Python Django Rest Framework
 
 # Testing the endpoint:
 Request: 
+```
 {
-	"email"?: string,
-	"phone_number"?: number
+	"email": string,
+	"phone_number": number
 }
-'?' indicated optional field.
+```
+*Email and phone number is an optional field. Provide atleast one.
 
 Three conditions arise based on requests(dealing each request separately):
 1. Only email is present.
