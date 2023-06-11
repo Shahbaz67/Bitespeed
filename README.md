@@ -9,7 +9,7 @@ Go to the above url to test the functionality of the "/identify" endpoint.
 My Resume link: https://bit.ly/3INyy4X 
 
 # Stack Used
-Database: PostgreSQL on AWS RDS instance
+Database: PostgreSQL on AWS RDS instance\
 Backend Framework: Python Django Rest Framework
 
 # Testing the endpoint:
