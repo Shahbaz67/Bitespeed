@@ -3,8 +3,9 @@ Bitespeed Backend Task: Identity Reconciliation
 - Bitespeed needs a way to identify and keep track of a customer's identity across multiple purchases.
 
 API service hosted on AWS EC2: http://50.17.158.118/identify/
+(instance might have been stopped to save cost)
 
-Go to the above url to test the functionality of the "/identify" endpoint.
+Go to the above URL to test the functionality of the "/identify" endpoint.
 
 My Resume link: https://bit.ly/3INyy4X 
 
